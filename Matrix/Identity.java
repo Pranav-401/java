@@ -3,8 +3,15 @@ public class Identity {
 
     static boolean isIdentity(int[][] matrix) {
 
-        for (int i = 0; i < matrix.length; i++){
-            for(int j=0; j < matrix[i].length; j++){
+        int row = matrix.length;
+        int col = matrix[0].length;
+
+        if(row != col){
+            return false;
+        }
+
+        for (int i = 0; i < row; i++){
+            for(int j=0; j < col; j++){
                 if(i == j){
                     if(matrix[i][j] != 1){
                         return false;
@@ -21,7 +28,7 @@ public class Identity {
     }
 
     public static void main(String args[]){
-        int[][] matrix = {{1,0,0,0}, {0,1,0,0}, {0,0,1,0}, {0,0,0,1}};
+        int[][] matrix = {{1,0,0,0}, {0,1,0,0}, {0,0,1,0}};
         boolean result = isIdentity(matrix);
 
         if (result){
