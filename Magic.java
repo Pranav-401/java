@@ -6,6 +6,7 @@ public class Magic {
         int org = n;
         int sum = 0;
 
+        // loop until we get the single digit in sum
         while( n > 9){
             sum = 0;
             while(n != 0) {

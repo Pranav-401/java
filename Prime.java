@@ -3,11 +3,13 @@ import java.util.*;
 public class Prime {
 
     static void isPrime(int num) {
+        // num is 1 or less than 1 is not prime
         if( num <= 1){
             System.out.println(num + " is not prime");
             return;
         }
 
+        // num divisible by digit 2 to num-1 is not prime
         for ( int i = 2; i < num; i++){
             if( num % i == 0){
                 System.out.println(num + " is not prime");

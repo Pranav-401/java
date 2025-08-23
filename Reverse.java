@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ReverseString {
+public class Reverse {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -9,7 +9,8 @@ public class ReverseString {
 
         // Using StringBuilder for easy reversal
         String reversed = new StringBuilder(str).reverse().toString();
-
+        
         System.out.println("Reversed String: " + reversed);
+        // System.out.println("type of: " + reversed.getClass().getSimpleName());
     }
 }
