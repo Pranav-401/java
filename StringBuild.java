@@ -9,8 +9,8 @@
 // 8. charAt(index) [return char]
 // 9. setCharAt(index, char)
 
-// 10. indexOf(char/string) [return first index]
-// 11. lastIndexOf(char/string)  [return last index]
+// 10. indexOf(String) [return first index]
+// 11. lastIndexOf(string)  [return last index]
 // 12. substring([beg, end))  [return string]
 
 public class StringBuild {
