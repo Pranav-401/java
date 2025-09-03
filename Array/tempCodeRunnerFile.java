@@ -1,0 +1,2 @@
+
+        return ascending || descending;
