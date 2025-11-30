@@ -4,15 +4,11 @@ class GCD{
 	public static int[] Swap(int num1,int num2){
 		int[] value = new int[2];
 		if(num1<num2){
-			int a = num2;
-			int b = num1;
-			value[0]=a;
-			value[1]=b;
+			value[0]=num2;
+			value[1]=num1;
 		}else{
-			int a = num1;
-			int b = num2;
-			value[0]=a;
-			value[1]=b;	
+			value[0]=num1; 
+			value[1]=num2;	
 		}
 		return value;
 	}
@@ -23,11 +19,9 @@ class GCD{
 			b=a%b;
 			a = temp;
 		}
-			return a;
-			
+		return a;
 	}
 		
-	
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter the Frist Number : ");

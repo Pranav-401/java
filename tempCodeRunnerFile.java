@@ -1,1 +1,0 @@
-   System.out.println("type of: " + reversed instanceof int);

@@ -51,7 +51,5 @@ public class StringBuild {
 
         String sub = sb.substring(1,3);
         System.out.println("substring is: " + sub);
-
-       
     }
 }

@@ -16,7 +16,6 @@ public class Prime {
                 return;
             }
         }
-
         System.out.println(num + " is prime");
     }
 

@@ -14,3 +14,20 @@ public class Reverse {
         // System.out.println("type of: " + reversed.getClass().getSimpleName());
     }
 }
+
+function(num){
+    count =1;
+    for(i=3; i<num; i++){
+        flag=1;
+        for(j=2; j<i; j++){
+            if(i%j == 0){
+                flag=0;
+                break;
+            }
+        }
+
+        if(flag==1){
+            count++;
+        }
+    }
+}
