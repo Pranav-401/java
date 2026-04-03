@@ -1,5 +1,11 @@
 class Insertion {
 
+    //Logic
+    // Start from the second element
+    // Compare it with the previous elements
+    // Shift bigger elements to the right
+    // Insert the current element in the correct position
+    
     static void insertionSort(int[] arr) {
         for(int i=1; i < arr.length; i++) {
             int current = arr[i];

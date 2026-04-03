@@ -4,21 +4,17 @@ import java.util.Scanner;
 
 class CheckString{
 
-    static boolean substring(String s1, String s2){
-        int j=0;
-        for(int k=0; k<s1.length();k++){
-            if(j < s2.length()){
-                if(s1.charAt(k) == s2.charAt(j)){
-                    j++;
-                } 
-            } else {
-                return true;
+    static boolean isSubsequence(String s1, String s2) {
+        int j = 0;
+
+        for (int i = 0; i < s1.length(); i++) {
+            if (j < s2.length() && s1.charAt(i) == s2.charAt(j)) {
+                j++;
             }
         }
-        return false;
-    }
 
-    
+        return j == s2.length();
+    }
 
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
@@ -28,12 +24,12 @@ class CheckString{
         System.out.print("Enter a subsequence string s2: ");
         String s2 = sc.nextLine();
 
-        boolean result = substring(s1,s2);
+        boolean result = isSubsequence(s1,s2);
 
         if(result){
-            System.out.println("s2 is substring of s1");
+            System.out.println("s2 is Subsequence of s1");
         } else {
-            System.out.println("s2 is not substring of s1");
+            System.out.println("s2 is not Subsequence of s1");
         }
     }
 }

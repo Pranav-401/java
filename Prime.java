@@ -9,6 +9,7 @@ public class Prime {
             return;
         }
 
+        //O(n)
         // num divisible by digit 2 to num-1 is not prime
         for ( int i = 2; i < num; i++){
             if( num % i == 0){
@@ -16,6 +17,15 @@ public class Prime {
                 return;
             }
         }
+
+        //O(√n)
+        // for ( int i = 2; i*i <= n ; i++){ // i <= sqrt(n)
+        //     if( num % i == 0){
+        //         System.out.println(num + " is not prime");
+        //         return;
+        //     }
+        // }
+
         System.out.println(num + " is prime");
     }
 

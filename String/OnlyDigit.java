@@ -10,11 +10,12 @@ public class OnlyDigit {
                 return;
             }
         }
-         System.out.println("The string contains only numbers");
+        System.out.println("The string contains only numbers");
     }
 
     public static void main(String args[]){
         String str = "12a4bc5";
+        System.out.println('9' - 0);
         isDigit(str);
     }
 }
