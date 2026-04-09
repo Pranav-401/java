@@ -4,7 +4,6 @@ public class Multiplication{
         int m1_row = matrix1.length;
         int m1_col = matrix1[0].length;
 
-        int m2_row = matrix2.length;
         int m2_col = matrix2[0].length;
 
         int[][] result_matrix = new int[m1_row][m2_col];

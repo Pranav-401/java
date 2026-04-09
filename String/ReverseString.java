@@ -9,6 +9,8 @@ public class ReverseString {
         String str = sc.nextLine();
         String reverse = "";
 
+        sc.close();
+
         for(int i = str.length()-1; i >= 0; i--){ //O(n)
             char curr = str.charAt(i);
             reverse += curr; // O(n)

@@ -23,6 +23,7 @@ class Leftover{
         }
         
         System.out.println("The answer is: "+ pack);
+        sc.close();
     }
 } 
 

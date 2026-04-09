@@ -7,7 +7,7 @@ class Substring {
         System.out.print("Enter a string: ");
         String str = sc.nextLine();
 
-        StringBuilder sb = new StringBuilder(str);
+        sc.close();
 
         for(int i=0; i <= str.length(); i++){
             for(int j=i+1; j <= str.length(); j++){

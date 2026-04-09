@@ -3,7 +3,7 @@ public class NonRepeated {
     public static void main(String args[]){
         int[] freq = new int[26];
         String str = "available";
-        StringBuilder non_repeat = new StringBuilder();
+        //StringBuilder non_repeat = new StringBuilder();
         
         // Count the frequency of each character
         for(int i=0; i < str.length(); i++){

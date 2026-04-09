@@ -24,6 +24,7 @@ class CheckString{
         System.out.print("Enter a subsequence string s2: ");
         String s2 = sc.nextLine();
 
+        sc.close();
         boolean result = isSubsequence(s1,s2);
 
         if(result){

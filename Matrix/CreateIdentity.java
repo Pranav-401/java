@@ -24,5 +24,6 @@ public class CreateIdentity {
         System.out.print("Enter a number: ");
         int num = s1.nextInt();
         create(num);
+        s1.close();
     }
 }

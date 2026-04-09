@@ -35,5 +35,6 @@ class SubtractString{
         SubtractString obj = new SubtractString();
         int result = obj.minPartitions(n);
         System.out.println(result);
+        sc.close();
     }
 }

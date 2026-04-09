@@ -1,5 +1,5 @@
 // Remove duplicate character   
-public class Duplicate{
+public class DuplicateString{
     public static void main(String args[]){
         boolean[] arr = new boolean[26];
 

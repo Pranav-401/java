@@ -32,6 +32,7 @@ public class Survival{
         // Edge Case: Only one person
         if (n == 1) {
             System.out.println(a[0]);
+            sc.close();
             return;
         }
 

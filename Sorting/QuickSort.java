@@ -42,6 +42,7 @@ class QuickSort {
             arr[i] = sc.nextInt();
         }
 
+        sc.close();
         quick(arr, 0, n-1);
         System.out.print("Sorted array: ");
         for(int i=0; i < n; i++){

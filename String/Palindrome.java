@@ -6,6 +6,8 @@ class Palindrome {
         System.out.print("Enter a string: ");
         String str = sc.nextLine();
 
+        sc.close();
+
         String reverse = new StringBuilder(str).reverse().toString();
 
         if (str.equals(reverse)){

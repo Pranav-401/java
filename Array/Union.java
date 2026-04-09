@@ -46,5 +46,7 @@ class Union {
         }
 
         unionAndIntersection(arr1,arr2);
+
+        sc.close();
     }
 }
